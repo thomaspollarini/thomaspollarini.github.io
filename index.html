@@ -25,38 +25,68 @@
 
   <body>
     <header class="header">
+      <nav class="header__nav">
+        <ul class="menu menu--principal">
+          <li class="menu__item">
+            <a class="menu__link active" href="#home">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projetos">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contato">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div class="header__brand">
         <img class="brand__logo" src="assets/images/logo.png" alt="Logo TP" />
       </div>
-      <i id="toggleTheme" class="bi bi-sun"></i>
+      <div class="header__toggle">
+        <i id="toggleTheme" class="bi bi-sun"></i>
+      </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
       <ul class="menu menu--mobile">
         <li class="menu__item">
-          <a class="menu__link active" href="#home"> 
+          <a class="menu__link active" href="#home">
             <i class="menu__icon bi bi-house-door"></i>
             <span class="menu__text">Home</span>
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#projetos"> 
+          <a class="menu__link" href="#projetos">
             <i class="menu__icon bi bi-window-stack"></i>
             <span class="menu__text">Projetos</span>
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#sobre"> 
+          <a class="menu__link" href="#sobre">
             <i class="menu__icon bi bi-person"></i>
             <span class="menu__text">Sobre</span>
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#contato"> 
+          <a class="menu__link" href="#contato">
             <i class="menu__icon bi bi-envelope"></i>
             <span class="menu__text">Contato</span>
           </a>
         </li>
       </ul>
     </nav>
+
+    <footer>
+      <p>&copy; 2025. Todos os direitos reservados. Desenvolvido por <a href="https://github.com/thomaspollarini" target="_blank">Thomas Pollarini</a>.</p>
+    </footer>
   </body>
 </html>
