@@ -16,7 +16,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     <!-- Stylesheets -->
@@ -95,20 +95,30 @@
         </p>
         <ul class="menu menu--social">
           <li>
-            <a class="menu__link" href="https://github.com/thomaspollarini" target="_blank">
+            <a
+              class="menu__link"
+              href="https://github.com/thomaspollarini"
+              target="_blank"
+            >
               <i class="menu__icon bi bi-github"></i>
             </a>
           </li>
           <li>
-            <a class="menu__link" href="https://www.linkedin.com/in/thomaspollarini" target="_blank">
+            <a
+              class="menu__link"
+              href="https://www.linkedin.com/in/thomaspollarini"
+              target="_blank"
+            >
               <i class="menu__icon bi bi-linkedin"></i>
             </a>
           </li>
         </ul>
-        <button class="btn btn--primary">
-          <span>Ver Projetos</span>
-          <i class="bi bi-arrow-down-right"></i>
-        </button>
+        <a href="#projetos">
+          <button class="btn btn--primary">
+            <span>Ver Projetos</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </button>
+        </a>
       </div>
     </main>
 
@@ -116,18 +126,349 @@
       <h2>Conhecimentos nas principais tecnologias do mercado</h2>
       <ul class="skills__list">
         <li class="skills__item">
-          <img class="skills__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Logo JavaScript"/>
+          <img
+            class="skills__logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            alt="Logo JavaScript"
+          />
         </li>
         <li class="skills__item">
-          <img class="skills__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" alt="Logo CSS3"/>
+          <img
+            class="skills__logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+            alt="Logo CSS3"
+          />
         </li>
         <li class="skills__item">
-          <img class="skills__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" alt="Logo Node.js"/>
+          <img
+            class="skills__logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg"
+            alt="Logo Node.js"
+          />
         </li>
         <li class="skills__item">
-          <img class="skills__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg" alt="Logo Python"/>
+          <img
+            class="skills__logo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg"
+            alt="Logo Python"
+          />
         </li>
       </ul>
+    </section>
+
+    <section id="projetos" class="projects">
+      <h2>Projetos</h2>
+      <div class="projects__container">
+        <div class="projects__card">
+          <img
+            class="card__cover"
+            src="assets/images/projetos/spotify.png"
+            alt="Screen Spotify"
+          />
+          <div class="card__body">
+            <h3 class="card__title">Clone Spotify</h3>
+            <p class="card__description">Streaming de músicas</p>
+            <ul class="card__list">
+              <li>Lista de Músicas;</li>
+              <li>Lista de Artistas;</li>
+              <li>Reprodução de Músicas.</li>
+            </ul>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                  alt="Logo React"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+                  alt="Logo Vite.js"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg"
+                  alt="Logo Node.js"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg"
+                  alt="Logo MongoDB"
+                />
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a
+                href="https://projeto-spotify-clone.onrender.com/"
+                target="_blank"
+              >
+                <button class="btn btn--primary">
+                  <span>Prévia</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/thomaspollarini/Projeto-Spotify"
+                target="_blank"
+              >
+                <button class="btn">
+                  <span>Repositório</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__card card--reverse">
+          <img
+            class="card__cover"
+            src="assets/images/projetos/pokedex.png"
+            alt="Screen Spotify"
+          />
+          <div class="card__body">
+            <h3 class="card__title">Pokedex</h3>
+            <p class="card__description">Aplicação para consulta de Pokémon</p>
+            <ul class="card__list">
+              <li>Lista de Pokémon;</li>
+              <li>Detalhes de cada Pokémon;</li>
+              <li>Busca por nome ou id.</li>
+            </ul>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
+                  alt="Logo HTML5"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+                  alt="Logo CSS3"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  alt="Logo JavaScript"
+                />
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a
+                href="https://thomaspollarini.github.io/Pokedex/"
+                target="_blank"
+              >
+                <button class="btn btn--primary">
+                  <span>Prévia</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/thomaspollarini/Pokedex"
+                target="_blank"
+              >
+                <button class="btn">
+                  <span>Repositório</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__card">
+          <img
+            class="card__cover"
+            src="assets/images/projetos/catalago.png"
+            alt="Screen Spotify"
+          />
+          <div class="card__body">
+            <h3 class="card__title">Catálogo de Filmes</h3>
+            <p class="card__description">
+              Site com informações sobre filmes do homem-aranha
+            </p>
+            <ul class="card__list">
+              <li>Lista de filmes;</li>
+              <li>Detalhes de cada filme;</li>
+              <li>Galeria de imagens.</li>
+            </ul>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
+                  alt="Logo HTML5"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+                  alt="Logo CSS3"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  alt="Logo JavaScript"
+                />
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a
+                href="https://thomaspollarini.github.io/Site-spider-man-movies/"
+                target="_blank"
+              >
+                <button class="btn btn--primary">
+                  <span>Prévia</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/thomaspollarini/Site-spider-man-movies"
+                target="_blank"
+              >
+                <button class="btn">
+                  <span>Repositório</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__card card--reverse">
+          <img
+            class="card__cover"
+            src="assets/images/projetos/turismo.png"
+            alt="Screen Spotify"
+          />
+          <div class="card__body">
+            <h3 class="card__title">informações Turísticas</h3>
+            <p class="card__description">
+              Apresentação de informações turísticas
+            </p>
+            <ul class="card__list">
+              <li>Lista de cidades turísticas;</li>
+              <li>Descrição de cada local.</li>
+            </ul>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
+                  alt="Logo HTML5"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+                  alt="Logo CSS3"
+                />
+              </li>
+              <li class="skills__item">
+                <img
+                  class="skills__logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  alt="Logo JavaScript"
+                />
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a
+                href="https://thomaspollarini.github.io/Turismo_Minas_Gerais_Front-End/"
+                target="_blank"
+              >
+                <button class="btn btn--primary">
+                  <span>Prévia</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </button>
+              </a>
+              <a
+                href="https://github.com/thomaspollarini/Turismo_Minas_Gerais_Front-End"
+                target="_blank"
+              >
+                <button class="btn">
+                  <span>Repositório</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/thomaspollarini" target="_blank">
+          <button class="btn btn--primary">
+            <span>Ver Todos os Projetos</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="about__content1">
+        <img
+          class="about__photo"
+          src="assets/images/me.jpg"
+          alt="Foto de Thomas Pollarini"
+        />
+        <div class="about__description">
+          <h2>Sobre Mim</h2>
+          <p>
+            Thomas Pollarini. Virei um desenvolvedor a 4 anos, quando ingressei no
+            curso superior de Ciência da Computação. Desde então, tenho me
+            dedicado a aprender e aprimorar minhas habilidades em desenvolvimento
+            de software, inicialmente e ao longo da faculdade tive foco em
+            desenvolvimento de sistemas. Atualmente, estou me aprofundando em
+            desenvolvimento Front-End, e futuramente pretendo explorar mais sobre
+            desenvolvimento Back-End.
+          </p>
+          <div class="about__icons">
+            <i class="bi bi-translate"></i>
+            <span>Inglês: Intermediário</span>
+          </div>
+          <div class="description__buttons">
+            <a href="https://www.linkedin.com/in/thomaspollarini/" target="_blank">
+              <button class="btn btn--primary">
+                <span>Conecte-se Comigo</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </a>
+            <a href="" target="_blank">
+              <button class="btn">
+                <span>Currículo</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about__content2">
+        <div class="col1">
+          <div class="row1">
+            <h3>Formação</h3>
+            <h4>Ciência da Computação</h4>
+            <span>Mai 2021 - Atualmente</span>
+            <div class="about__icons">
+              <i class="bi bi-bank"></i>
+              <span>Instituto Federal de Minas Gerais</span>
+            </div>
+            <div class="about__icons">
+              <i class="bi bi-mortarboard"></i>
+              <span>Graduação em Andamento</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col2">
+          <div class="row1">
+            <h3>Cursos</h3>
+          </div>
+      </div>
     </section>
 
     <footer>
