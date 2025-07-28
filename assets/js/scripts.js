@@ -14,3 +14,6 @@ themeToggleButton.addEventListener('click', () => {
   toggleTheme();
   changeToggleIcon(themeToggleButton);
 });
+
+const accordionItems = document.querySelectorAll('.accordion__item');
+accordionItems.forEach(item => item.addEventListener('click', () => item.classList.toggle('active')));
